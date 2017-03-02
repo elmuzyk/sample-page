@@ -1,0 +1,40 @@
+/*--------------------------- GLOBAL ----------------------------*/
+
+body {
+  font-family: "helvetica";
+  color: #424244;
+}
+
+/*--------------------------- HELPERS----------------------------*/
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+
+#container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
+}
+
+#panel {
+  width: 1000px;
+  margin: 60px auto;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 5px 8px rgba(0,0,0,0.2);
+}
