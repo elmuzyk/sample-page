@@ -76,25 +76,25 @@ textarea:focus, input:focus {
 /*---------------------------  PRIMARY TASK LIST----------------------------*/
 
 .task-container {
-color: #8f9091;
+  color: #8f9091;
 }
 
 .task-container:hover {
-background-color: #edf3ff;
-color: #424244;
+  background-color: #edf3ff;
+  color: #424244;
 }
 
 .task-desc {
-   font-size: 12px;
-   margin: 12px 0 0 10px;
-   color: #424244;
+  font-size: 12px;
+  margin: 12px 0 0 10px;
+  color: #424244;
 }
 
 .date {
-   margin: 13px 0 0 10px;
-   font-size: 15px;
-   width: 12%;
-   text-align: center;
+  margin: 13px 0 0 10px;
+  font-size: 15px;
+  width: 12%;
+  text-align: center;
  }
 
 /*---------------------------  SECONDARY TASK LIST----------------------------*/
