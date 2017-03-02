@@ -27,26 +27,6 @@ textarea:focus, input:focus {
 }
 
 
-
-#container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ffffff;
-}
-
-#panel {
-  width: 1000px;
-  margin: 60px auto;
-  -webkit-border-radius: 10;
-  -moz-border-radius: 10;
-  border-radius: 10px;
-  background-color: #fff;
-  box-shadow: 0px 5px 8px rgba(0,0,0,0.2);
-}
-
 /*--------------------------- TASK LIST CONTAINERS ----------------------------*/
 .one-half {
   width: 50%;
@@ -68,10 +48,9 @@ textarea:focus, input:focus {
 
 /*--------------------------- ADD TASK INPUT ----------------------------*/
 .task-field {
-  width: 80%;
+  width: 75%;
   margin-left: 10px;
 }
-
 .task-input {
   padding: 5px 0 0 4px;
   margin: 10px 0 0 0;
@@ -99,19 +78,18 @@ textarea:focus, input:focus {
   font-size: 15px;
   width: 12%;
   text-align: center;
- }
-
- .sec-date {
-  margin: 12px 0 0 10px;
-  font-size: 15px;
-  width: 25%;
-  text-align: center;
-  color: #8f9091;
 }
+
 
 /*---------------------------  SECONDARY TASK LIST----------------------------*/
 
-
+.sec-date {
+  margin: 12px 0 0 10px;
+  font-size: 15px;
+  width: 26%;
+  text-align: center;
+  color: #8f9091;
+ }
 
 /*---------------------------  BUTTONS ----------------------------*/
 
@@ -198,4 +176,117 @@ textarea:focus, input:focus {
 
 .btn-white:hover {
   cursor: pointer;
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+  #container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+  }
+
+  #panel {
+    width: 1000px;
+    margin: 60px auto;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.2);
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  #container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+  }
+
+  #panel {
+    width: 700px;
+    margin: 60px auto;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.2);
+  }
+
+}
+
+@media only screen and (min-width: 569px) and (max-width: 767px) {
+
+  #container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+  }
+
+  #panel {
+    width: 100%;
+    margin: 60px auto;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.2);
+  }
+
+}
+
+@media only screen and (max-width: 568px) {
+
+  #container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+  }
+
+  #panel {
+    width: 100%;
+    margin: 60px auto;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.2);
+  }
+
+  .one-half {
+    width: 100%;
+  }
+
+  /*--------------------------- ADD TASK INPUT ----------------------------*/
+  .task-field {
+    width: 60%;
+    margin-left: 10px;
+  }
+
+  /*---------------------------  SECONDARY TASK LIST----------------------------*/
+
+  .sec-date {
+    margin: 12px 0 0 10px;
+    font-size: 15px;
+    width: 12%;
+    text-align: center;
+    color: #8f9091;
+   }
+
 }
